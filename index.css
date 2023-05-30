@@ -1,0 +1,389 @@
+body
+{
+
+    background-color: white;
+
+}
+   /* Styles for the modal */
+        .modal2 {
+            display: none; /* Hide the modal by default */
+            position: fixed; /* Position the modal */
+            z-index: 99; /* Set a high z-index to make sure it appears on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scrolling if needed */
+            background-color: rgba(0, 0, 0, 0.4); /* Black background with opacity */
+        }
+        
+        .modal2-content {
+            background-color: #ecf6f7;
+            margin: 15% auto; /* Center the modal vertically and horizontally */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%; /* Set the width of the modal */
+            border-radius: 8px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+        }
+        
+         .modal2-content h2 {
+           font-size: 30px;
+         margin-bottom: 10px;
+           }
+        .modal2-content p {
+           font-size: 20px;
+         margin-bottom: 10px;
+           }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+        }
+        
+        /* Style the button to open the modal */
+        .open-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .open-button:hover {
+            background-color: #45a049;
+        }
+/* Set a max width for the container and center it horizontally */
+.container {
+  max-width: 900px;
+  
+  margin: 0 auto;
+}
+
+/* Style the modal dialog and form */
+.modal-dialog {
+  margin-top: 80px;
+}
+
+.modal-content {
+  border-radius: 0;
+}
+
+.modal-header {
+  background-color: #5C469C;
+  color: #fff;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+
+/* Style the FullCalendar plugin */
+#calendar {
+  margin-top: 40px;
+  
+  
+  
+}
+
+.fc-toolbar {
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 3px;
+}
+
+.fc-toolbar button {
+  background-color: transparent;
+  border: none;
+  color: #5C469C;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fc-toolbar button:hover {
+  background-color: #e5e5e5;
+}
+
+.fc-view .fc-day-top {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #999;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.fc-view .fc-day-grid-event {
+  margin-top: 5px;
+  padding: 2px 5px;
+  background-color: #5C469C;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.fc td, .fc th {
+   background-color: #ecf6f7;
+}
+
+.fc-view .fc-day-grid-event:hover {
+  background-color: #5C469C;
+}
+
+.fc-view .fc-more {
+  background-color: #5C469C;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fc-view .fc-more:hover {
+  background-color: #5C469C;
+}
+
+.fc-view .fc-event {
+  margin-top: 5px;
+  padding: 2px 5px;
+  background-color: #1D267D;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fc-view .fc-event:hover {
+  background-color: #323c97;
+}
+
+.fc-view .fc-day-header {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+  padding: 10px 5px;
+  border-right: 1px solid #ccc;
+}
+
+.fc-view .fc-row {
+  border-bottom: 1px solid #ccc;
+}
+
+.fc-view .fc-row:last-child {
+  border-bottom: none;
+}
+
+.fc-view .fc-day-number {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.fc-view .fc-content-skeleton {
+  background-color: #fff;
+}
+
+.fc-view .fc-highlight {
+  background-color: #5C469C;
+  opacity: 0.3;
+}
+
+.fc-popover {
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fc-popover-header {
+  background-color: #A16BFE;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 3px 3px 0 0;
+}
+
+.fc-popover-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fc-popover-content {
+  padding: 10px;
+}
+
+.fc-popover-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.fc-popover-body {
+  font-size: 14px;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  #calendar {
+    margin-top: 20px;
+  }
+
+  .btn-logout {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  .modal-dialog {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .fc-toolbar {
+    margin-bottom: 10px;
+  }
+
+  .fc-view .fc-day-header {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .fc-view .fc-day-top {
+    font-size: 12px;
+    padding-bottom: 2px;
+  }
+
+  .fc-view .fc-day-grid-event,
+  .fc-view .fc-more,
+  .fc-view .fc-event {
+    font-size: 12px;
+    padding: 2px 3px;
+  }
+
+  .fc-view .fc-day-number {
+    font-size: 16px;
+    margin-right: 2px;
+  }
+}
+
+
+
+/*index style*/
+
+ #calendar {
+      max-width: 900px;
+      margin: 0 auto;
+      margin-top: 10px;
+
+    }
+
+    .alert {
+      padding: 20px;
+      background-color: #f44336;
+      color: white;
+      font-size: 18px;
+      border-radius: 5px;
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      max-width: 90%;
+      max-height:10%;
+      
+      word-wrap: break-word;
+      box-sizing: border-box;
+      z-index: 9999;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .close-button {
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1;
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+      margin-left: 10px;
+      margin-top: 10px;
+      order: 2;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .alert {
+        font-size: 16px;
+        
+      }
+      
+      .close-button {
+        font-size: 14px;
+        margin-left: 0;
+        margin-top: 0;
+        order: 1;
+      }
+    }
+
+    a .fas.fa-trash {
+      font-size: 16px;
+      color: red;
+      text-decoration: none;
+      margin-right: 30px;
+
+    }
+
+    a .fas.fa-trash:hover {
+      cursor: pointer;
+    }
+
+    a .fas.fa-edit {
+      font-size: 16px;
+      color: #999;
+      text-decoration: none;
+      
+
+    }
+
+    a .fas.fa-edit:hover{
+      color: #333;
+    }

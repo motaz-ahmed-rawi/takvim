@@ -1,0 +1,197 @@
+ /* Style for the main container */
+                .main {
+                    background-color: #ecf6f7;
+                    border-radius: 8px;
+                    box-shadow: 0 0 8px #002775;
+                    margin: auto;
+                    /* Center the container horizontally */
+                    margin-top: 5%;
+                    padding: 20px;
+                    width: 90%;
+                    overflow-y: auto;
+                    /* Add a vertical scroll */
+                    max-height: 500px;
+                    /* Set a maximum height for the container */
+                }
+
+                /* Style for the identity card */
+                .card {
+                 
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(71, 144, 144, 0.1);
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    padding: 20px;
+                    position: relative;
+                    text-align: center;
+                }
+
+                /* Style for the edit icon */
+                .edit {
+                    color: #999;
+                    cursor: pointer;
+                    position: absolute;
+                    right: 20px;
+                    top: 20px;
+                }
+
+                /* Style for the table */
+                table {
+                    border-collapse: collapse;
+                    margin-top: 20px;
+                    width: 100%;
+                }
+
+                table td {
+                    border-bottom: 1px solid #ddd;
+                    padding: 10px;
+                    text-align: left;
+                }
+
+                table td:first-child {
+                    font-weight: bold;
+                    width: 150px;
+                }
+
+                /* Style for the update form */
+                form {
+                    background-color: #fff;
+                    border-radius: 8px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    margin-top: 20px;
+                    padding: 20px;
+                    text-align: center;
+                }
+
+                form label {
+                    display: block;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+
+                form input {
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                    margin-bottom: 20px;
+                    padding: 10px;
+                    width: 100%;
+                }
+
+                form button {
+                    background-color: #282828;
+                    border: none;
+                    border-radius: 4px;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 16px;
+                    margin-top: 20px;
+                    padding: 10px;
+                    width: 100%;
+                }
+
+                /* Responsive styles */
+                @media only screen and (max-width: 768px) {
+
+                    .main {
+                        border-radius: 8px;
+                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+                        margin: auto;
+                        /* Center the container horizontally */
+                        margin-top: 5%;
+                        padding: 20px;
+                        width: 90%;
+                        overflow-y: auto;
+                        /* Add a vertical scroll */
+                        max-height: 800px;
+                        /* Set a maximum height for the container */
+                    }
+
+
+                    /* Reduce the font size of the table cells */
+                    table td {
+                        font-size: 14px;
+                        padding: 5px;
+                    }
+
+                    /* Reduce the width of the first table cell */
+                    table td:first-child {
+                        width: 100px;
+                    }
+
+                    /* Move the edit icon to the bottom of the card */
+                    .edit {
+                        bottom: 20px;
+                        right: 10px;
+                        top: auto;
+                    }
+
+                    /* Reduce the padding of the update form */
+                    form {
+                        padding: 10px;
+                    }
+
+                    /* Reduce the font size of the update form elements */
+                    form label {
+                        font-size: 14px;
+                        margin-bottom: 5px;
+                    }
+
+                    form input {
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                        padding: 5px;
+                    }
+
+                    form button {
+                        font-size: 14px;
+                        padding: 5px;
+                    }
+
+                    /* Make the card and form bigger on phones */
+                    .card {
+                        font-size: 18px;
+                        padding: 30px;
+                    }
+
+                    form {
+                        font-size: 18px;
+                        padding: 30px;
+                    }
+                }
+
+
+
+                /* Button style */
+                button {
+                    background-color: #282828;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+
+                /* Button hover effect */
+                button:hover {
+                    opacity: 0.8;
+                }
+
+                /* Button active effect */
+                button:active {
+                    background-color: #282828;
+                    transform: translateY(1px);
+                }
+
+                /* Responsive button style for small screens */
+                @media only screen and (max-width: 600px) {
+                    button {
+                        padding: 8px 16px;
+                        font-size: 14px;
+                    }
+                }

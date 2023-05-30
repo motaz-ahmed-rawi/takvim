@@ -1,0 +1,44 @@
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+    margin: 0;
+}
+
+
+
+/* NavbarTop */
+.navbar-top {
+    background-color: #1D267D;
+    color: #333;
+    box-shadow: 0px 2px 4px 0px grey;
+    height: 70px;
+}
+
+.navbar-top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.navbar-top ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+.navbar-top ul li a {
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+/* End */
+
+
+

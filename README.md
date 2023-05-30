@@ -12,3 +12,7 @@ Bu takvim projesi aşağıdaki özellikleri içermeyi hedeflemektedir:
 - Etkinlik silme: Kullanıcılar, istedikleri etkinlikleri silme seçeneğine sahip olacaklardır.
 - Takvim görünümü: Kullanıcılar, etkinlikleri bir aya, haftaya veya güne göre görüntüleyebileceklerdir.
 - Hatırlatıcılar: Kullanıcılar, etkinliklere hatırlatıcı ekleyebilecek ve belirli bir süre öncesinde bildirim alabileceklerdir.
+
+
+## Daha Fazla Detay
+daha fazla bilgiler için wiki kısmına girin.

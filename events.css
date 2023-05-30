@@ -1,0 +1,117 @@
+
+
+.events-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  height: auto;
+  max-height: 500px;
+  overflow-y: auto;
+}
+    .events-container {
+      background-color: #fff;
+      border-radius: 16px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .events-container h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .events-container ul {
+
+      list-style: none;
+      padding: 0;
+
+    }
+
+    .events-container li {
+      margin-bottom: 20px;
+      padding: 20px;
+      position: relative;
+      background-color:#ecf6f7;
+      border-radius: 16px;
+
+    }
+
+    .events-container h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .events-container p {
+      margin: 0;
+    }
+
+    .events-container strong {
+      font-weight: bold;
+    }
+
+    .events-container a{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #999;
+      text-decoration: none;
+    }
+
+    .events-container a:hover {
+      color: #333;
+    }
+
+    @media (max-width: 768px) {
+   
+
+      .events-container h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+
+      .events-container h2 {
+        font-size: 18px;
+      }
+
+      .events-container li {
+        padding: 15px;
+      }
+      .events-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  height: auto;
+  max-height: 800px;
+  overflow-y: auto;
+}
+    }
+
+    a .fas.fa-trash {
+      font-size: 16px;
+      color: red;
+      text-decoration: none;
+      margin-right: 30px;
+
+    }
+
+    a .fas.fa-trash:hover {
+      cursor: pointer;
+    }
+
+    a .fas.fa-edit {
+      font-size: 16px;
+      color: #999;
+      text-decoration: none;
+      
+
+    }
+
+    a .fas.fa-edit:hover{
+      color: #333;
+    }

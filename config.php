@@ -1,9 +1,9 @@
 <?php
 // Veritabanı bağlantısı
-$servername = "sql302.epizy.com";
-$dbname = "epiz_34184714_xtakvim";
-$username = "epiz_34184714";
-$password = "yGRE876zzRclWos";
+$servername = "";
+$dbname = "";
+$username = "";
+$password = "";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
